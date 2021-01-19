@@ -1,0 +1,170 @@
+ 
+
+@font-face {
+  font-family: 'cook';
+  src:  url('./recipes/cook.eot?ennjmf');
+  src:  url('./recipes/cook.eot?ennjmf#iefix') format('embedded-opentype'),
+    url('./recipes/cook.ttf?ennjmf') format('truetype'),
+    url('./recipes/cook.woff?ennjmf') format('woff'),
+    url('./recipes/cook.svg?ennjmf#cook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'food';
+  src:  url('./home/home.eot?dqhmp3');
+  src:  url('./home/home.eot?dqhmp3#iefix') format('embedded-opentype'),
+    url('./home/home.ttf?dqhmp3') format('truetype'),
+    url('./home/home.woff?dqhmp3') format('woff'),
+    url('./home/home.svg?dqhmp3#food') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'food' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cook' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ico-alarm:before{content:"\e855"}
+.ico-schedule:before{content:"\e8b5"}
+.ico-account_balance:before{content:"\e84f"}
+.ico-account_box:before{content:"\e851"}
+.ico-account_circle:before{content:"\e853"}
+.ico-add:before{content:"\e145"}
+.ico-add_a_photo:before{content:"\e439"}
+.ico-add_circle:before{content:"\e147"}
+.ico-control_point:before{content:"\e3ba"}
+.ico-add_shopping_cart:before{content:"\e854"}
+.ico-queue:before{content:"\e03c"}
+.ico-alarm_on:before{content:"\e858"}
+.ico-all_inclusive:before{content:"\eb3d"}
+.ico-apps:before,.ico-i2:before{content:"\e5c3"}
+.ico-arrow_back:before{content:"\e5c4"}
+.ico-arrow_downward:before{content:"\e5db"}
+.ico-arrow_drop_down:before{content:"\e5c5"}
+.ico-arrow_drop_up:before{content:"\e5c7"}
+.ico-arrow_forward:before{content:"\e5c8"}
+/* .ico-arrow_upward:before{content:"\e5d8"} */
+.ico-flag:before{content:"\e153"}
+.ico-av_timer:before{content:"\e01b"}
+.ico-beach_access:before{content:"\eb3e"}
+.ico-block:before{content:"\e14b"}
+.ico-photo_camera:before{content:"\e412"}
+.ico-cancel:before{content:"\e5c9"}
+.ico-redeem:before{content:"\e8b1"}
+.ico-check:before{content:"\e5ca"}
+.ico-check_circle:before{content:"\e86c"}
+.ico-navigate_before:before{content:"\e408"}
+.ico-navigate_next:before{content:"\e409"}
+.ico-close:before{content:"\e5cd"}
+.ico-code:before{content:"\e86f"}
+.ico-photo_library:before{content:"\e413"}
+.ico-palette:before{content:"\e40a"}
+.ico-mode_edit:before{content:"\e254"}
+.ico-crop_original:before{content:"\e3c4"}
+.ico-dashboard:before{content:"\e871"}
+.ico-donut_large:before{content:"\e917"}
+.ico-donut_small:before{content:"\e918"}
+.ico-equalizer:before{content:"\e01d"}
+.ico-expand_less:before{content:"\e5ce"}
+.ico-expand_more:before{content:"\e5cf"}
+.ico-face:before{content:"\e87c"}
+.ico-favorite:before{content:"\e87d"}
+.ico-favorite_border:before{content:"\e87e"}
+.ico-filter_vintage:before{content:"\e3e3"}
+.ico-goat:before{content:"\e900"}
+.ico-star:before{content:"\e838"}
+.ico-headset:before{content:"\e310"}
+.ico-highlight_off:before{content:"\e888"}
+.ico-home:before{content:"\e88a"}
+.ico-info_outline:before{content:"\e88f"}
+.ico-keyboard_arrow_down:before{content:"\e313"}
+.ico-keyboard_arrow_left:before{content:"\e314"}
+.ico-keyboard_arrow_right:before{content:"\e315"}
+.ico-keyboard_arrow_up:before{content:"\e316"}
+.ico-keyboard_voice:before{content:"\e31d"}
+.ico-lightbulb_outline:before,.ico-i3:before{content:"\e90f"}
+.ico-live_tv:before{content:"\e639"}
+.ico-local_play:before{content:"\e553"}
+.ico-local_bar:before{content:"\e540"}
+.ico-local_cafe:before{content:"\e541"}
+.ico-restaurant_menu:before,.ico-i1:before{content:"\e561"}
+.ico-local_florist:before{content:"\e545"}
+.ico-shopping_cart:before{content:"\e8cc"}
+.ico-location_city:before{content:"\e7f1"}
+.ico-sync:before{content:"\e627"}
+.ico-loyalty:before{content:"\e89a"}
+.ico-message:before{content:"\e0c9"}
+.ico-more_horiz:before{content:"\e5d3"}
+.ico-more_vert:before{content:"\e5d4"}
+.ico-panorama:before{content:"\e40b"}
+.ico-radio_button_unchecked:before{content:"\e836"}
+.ico-people_outline:before{content:"\e7fc"}
+.ico-person:before{content:"\e7fd"}
+.ico-play_arrow:before{content:"\e037"}
+.ico-play_circle_outline:before{content:"\e039"}
+.ico-power_settings_new:before{content:"\e8ac"}
+.ico-radio_button_checked:before{content:"\e837"}
+.ico-visibility:before{content:"\e8f4"}
+.ico-restaurant:before{content:"\e56c"}
+.ico-rss_feed:before{content:"\e0e5"}
+.ico-search:before{content:"\e8b6"}
+.ico-sentiment_satisfied:before{content:"\e813"}
+.ico-settings:before{content:"\e8b8"}
+.ico-shopping_basket:before{content:"\e8cb"}
+.ico-sort:before{content:"\e164"}
+.ico-sort_by_alpha:before{content:"\e053"}
+.ico-star_border:before{content:"\e83a"}
+.ico-store_mall_directory:before{content:"\e563"}
+.ico-straighten:before{content:"\e41c"}
+.ico-timeline:before{content:"\e922"}
+.ico-timer:before{content:"\e425"}
+.ico-tune:before{content:"\e429"}
+.ico-wb_incandescent:before{content:"\e42e"}
+.ico-whatshot:before{content:"\e80e"}
+.ico-widgets:before{content:"\e1bd"}
+.ico-wifi:before{content:"\e63e"}
+.ico-youtube_searched_for:before{content:"\e8fa"}
+
+
+
+
+.icon-apple-1:before{content:"\e903"}
+.icon-bread-3:before{content:"\e923"}
+.icon-burger-1:before{content:"\e927"}
+.icon-cereals:before{content:"\e935"}
+.icon-cloche:before{content:"\e956"}
+.icon-fish-1:before{content:"\e98c"}
+.icon-flatware-1:before{content:"\e98f"}
+.icon-flatware-2:before{content:"\e990"}
+.icon-flatware-3:before{content:"\e991"}
+.icon-flatware-4:before{content:"\e993"}
+.icon-highball-glass-3:before{content:"\e99f"}
+.icon-ice-cream-2:before{content:"\e9a7"}
+.icon-rolling-pin:before{content:"\ea07"}
+.icon-watermelon:before{content:"\ea3b"}
+.icon-wine-glass-3-f:before{content:"\ea4c"}
+.icon-chicken-1:before{content:"\e942"}
+
+
